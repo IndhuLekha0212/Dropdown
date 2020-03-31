@@ -1,7 +1,25 @@
 <div>
 <label class="label">{{Cname}}</label>  
 <select class="child">
-<option  *ngFor = "let option of options;index as i;">{{option}}</option> 
+<option class="class1"*ngFor = "let option of options;index as i;">{{option}}</option> 
 </select>
 </div>
+<div></div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
+
+
+<div class="dropup">
+  <button class="dropbtn">Status</button>
+  <div class="dropup-content">
+   <a *ngFor = "let option of options;" class="class1">{{option}}</a>
+  </div>
+</div>
+<br><br>
+<div>
+<label class="label">{{Cname}}</label>  
+<select class="child">
+<option class="class1"*ngFor = "let option of options;index as i;">{{option}}</option> 
+</select>
+</div>
+<div></div>

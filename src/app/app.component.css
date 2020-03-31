@@ -1,0 +1,9 @@
+.dropdown1 {
+    max-width:40px;
+    overflow:scroll;
+    max-height: 20px;
+}
+.scroll{
+    max-width:50px;
+    overflow:scroll;
+}

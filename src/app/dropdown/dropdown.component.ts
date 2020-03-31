@@ -12,7 +12,9 @@ export class DropdownComponent implements OnInit {
   @Input() public Cname;
   @Input() public options;
 
-  constructor() { }
+  constructor() { 
+    
+  }
 
   ngOnInit() {
   }
