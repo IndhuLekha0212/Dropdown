@@ -1,8 +1,15 @@
 .child{
-    background-color:rgb(247, 235, 212);
+    background-color:rgb(90, 194, 194);
     padding:10px;
     font-size: 14pt;
     max-height: 50px;  
+}
+.state{
+  background-color:lightblue;
+  padding:10px;
+  font-size: 14pt;
+  max-height: 50px; 
+  overflow: visible !important; 
 }
 .class1{
     max-Height:50px;

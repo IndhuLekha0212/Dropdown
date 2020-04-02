@@ -11,6 +11,7 @@ export class DropdownComponent implements OnInit {
 
   @Input() public Cname;
   @Input() public options;
+  @Input() public States;
 
   constructor() { 
     
